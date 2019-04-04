@@ -4,7 +4,7 @@
 * [Model.cs](./CS/WebSite/App_Code/Model.cs) (VB: [Model.vb](./VB/WebSite/App_Code/Model.vb))
 * [XMLFile1.xml](./CS/WebSite/App_Data/XMLFile1.xml) (VB: [XMLFile1.xml](./VB/WebSite/App_Data/XMLFile1.xml))
 * [Default.aspx](./CS/WebSite/Default.aspx) (VB: [Default.aspx](./VB/WebSite/Default.aspx))
-* [Default.aspx.cs](./CS/WebSite/Default.aspx.cs) (VB: [Default.aspx](./VB/WebSite/Default.aspx))
+* [Default.aspx.cs](./CS/WebSite/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/WebSite/Default.aspx.vb))
 <!-- default file list end -->
 # How to drag and drop nodes between two ASPxTreeList controls
 
