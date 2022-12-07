@@ -16,7 +16,7 @@ Partial Public Class _Default
 	Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
 		BindTrees()
 	End Sub
-	Protected Sub Panel_Callback(ByVal source As Object, ByVal e As DevExpress.Web.ASPxClasses.CallbackEventArgsBase)
+	Protected Sub Panel_Callback(ByVal source As Object, ByVal e As DevExpress.Web.CallbackEventArgsBase)
 		Dim data() As String = e.Parameter.Split("|"c)
 		If data.Length = 3 AndAlso data(0) = "drag" Then
 			MyProvider.MoveNode(data(1), data(2))

@@ -14,7 +14,7 @@ public partial class _Default : System.Web.UI.Page {
 	protected void Page_Load(object sender, EventArgs e) {
 		BindTrees();
 	}
-	protected void Panel_Callback(object source, DevExpress.Web.ASPxClasses.CallbackEventArgsBase e) {
+	protected void Panel_Callback(object source, DevExpress.Web.CallbackEventArgsBase e) {
 		string[] data = e.Parameter.Split('|');
 		if(data.Length == 3 && data[0] == "drag") {
 			MyProvider.MoveNode(data[1], data[2]);
